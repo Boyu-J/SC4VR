@@ -34,8 +34,8 @@ SC4VR leverages supervised contrastive learning to align representations of simi
 If you use this repository in your research, please cite the following:
 
 ```bibtex
-@phdthesis{shi2024enhanced,
-  author       = {Jiang, Boyu; Shi, liang; Guo, Feng},
+@article{jiang2025sc4vr,
+  author       = {Jiang , Boyu and Shi , liang and Guo , Feng},
   title        = {SC4VR: A Supervised Contrastive Learning Framework for Vision Representation of Traffic Safety Critical Events},
   year         = {2025},
 }
