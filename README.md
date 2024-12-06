@@ -6,7 +6,7 @@ SC4VR (Supervised Contrastive Learning for Video Representations) is a novel app
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/SC4VR.git
+   git clone https://github.com/Boyu-J/SC4VR.git
    ```
 2. Install dependencies:
    ```bash
