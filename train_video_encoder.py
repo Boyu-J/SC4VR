@@ -91,7 +91,7 @@ for epoch in range(num_epochs):
     
     if mean_ss > best_val_ss:
         best_val_ss = mean_ss
-        torch.save(encoder_anchor.state_dict(), f'/home/boyuj/VTTI_Boyu/Working/Boyu/SHRP 2 video/Output/Semi SCL/best_encoder_ScratchLearn.pth')
+        torch.save(encoder_anchor.state_dict(), f'/path to save the encoder/best_encoder_ScratchLearn.pth')
         results_file.write(f'New best encoder saved with Silht scores: {best_val_ss}\n')
     
     torch.cuda.empty_cache()
