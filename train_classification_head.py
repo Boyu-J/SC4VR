@@ -86,7 +86,7 @@ for epoch in range(num_epochs):
     
     if val_accuracy > best_accuracy:
         best_accuracy = val_accuracy
-        torch.save(fc_layer.state_dict(), f'/home/boyuj/VTTI_Boyu/Working/Boyu/SHRP 2 video/Output/Semi SCL/best_fc_layer_ScratchLearn.pth')
+        torch.save(fc_layer.state_dict(), f'/path to save the fc layer/best_fc_layer_ScratchLearn.pth')
         results_file.write(f'New best fc_layer saved with val accuracy: {val_accuracy}\n')
     torch.cuda.empty_cache()
 
