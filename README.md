@@ -18,10 +18,16 @@ SC4VR (Supervised Contrastive Learning for Video Representations) is a novel app
 If you use this repository in your research, please cite the following:
 
 ```bibtex
-@article{jiang2025sc4vr,
-  author       = {Jiang , Boyu and Shi , liang and Guo , Feng},
-  title        = {SC4VR: A Supervised Contrastive Learning Framework for Vision Representation of Traffic Safety Critical Events},
-  year         = {2025},
+@article{JIANG2025468,
+title = {Enhancing vision representations for traffic safety-critical events via supervised contrastive learning},
+journal = {Journal of Safety Research},
+volume = {95},
+pages = {468-475},
+year = {2025},
+issn = {0022-4375},
+doi = {https://doi.org/10.1016/j.jsr.2025.10.002},
+url = {https://www.sciencedirect.com/science/article/pii/S0022437525001471},
+author = {Boyu Jiang and Liang Shi and Feng Guo}
 }
 ```
 
