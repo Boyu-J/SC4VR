@@ -1,16 +1,50 @@
 # SC4VR: Supervised Contrastive Learning for Video Representations
 
+Official implementation of Enhancing vision representations for traffic safety-critical events via supervised contrastive learning.
+
 SC4VR (Supervised Contrastive Learning for Video Representations) is a novel approach designed to enhance video representation learning, specifically for crash and near-crash events. This repository contains the codebase and documentation for implementing SC4VR.
 
-## Installation
+supervised contrastive pretraining on safety-critical events → better video/clip representations → downstream gains
+
+## Tutorial
+
+Jupyter notebook
+
+
+
+## Quickstart
+
+### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Boyu-J/SC4VR.git
    ```
+   
 2. Install dependencies:
    ```bash
+   conda create -n sc4vr python=3.10
+   conda activate sc4vr
    pip install -r requirements.txt
+   ```
+
+### Data preparation
+
+Where to download datasets (or placeholders).
+
+Expected folder structure.
+
+
+### Train
+
+   ```bash
+   python train.py
+   ```
+
+### Inference
+
+   ```bash
+   python inference.py
    ```
 
 ## Citation
