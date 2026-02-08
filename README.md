@@ -6,7 +6,7 @@ SC4VR (Supervised Contrastive Learning for Video Representations) is a novel app
 
 ## Method Overview
 
-![SC4VR Overview](plots/SupCon.png)
+![SC4VR Overview](SupCon.png)
 
 
 ## Tutorial
