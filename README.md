@@ -1,10 +1,13 @@
 # SC4VR: Supervised Contrastive Learning for Video Representations
 
-Official implementation of Enhancing vision representations for traffic safety-critical events via supervised contrastive learning.
+Official implementation of [Enhancing vision representations for traffic safety-critical events via supervised contrastive learning](https://www.sciencedirect.com/science/article/pii/S0022437525001471#fig0015).
 
-SC4VR (Supervised Contrastive Learning for Video Representations) is a novel approach designed to enhance video representation learning, specifically for crash and near-crash events. This repository contains the codebase and documentation for implementing SC4VR.
+SC4VR (Supervised Contrastive Learning for Video Representations) is a novel approach designed to enhance video representation learning, specifically for crash and near-crash events. 
 
-supervised contrastive pretraining on safety-critical events → better video/clip representations → downstream gains
+## Method Overview
+
+![SC4VR Overview](plots/SupCon.png)
+
 
 ## Tutorial
 
