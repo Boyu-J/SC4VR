@@ -11,15 +11,6 @@ SC4VR is a novel approach designed to enhance video representation learning, spe
 </p>
 
 
-
-## Tutorial
-
-Jupyter notebook for the implementation, including data preprocessing, label csv
-
-Video encoder: Video ResNet
-
-
-
 ## Quickstart
 
 ### Installation
@@ -36,24 +27,23 @@ Video encoder: Video ResNet
    pip install -r requirements.txt
    ```
 
-### Data preparation
+### Tutorial Notebook
 
-Where to download datasets (or placeholders).
+The [Tutorial Notebook](Tutorial.ipynb) provides a step‑by‑step walkthrough of the SC4VR workflow, guiding users from raw data to validated results. What the Tutorial Covers:
 
-Expected folder structure.
+- **Environment Setup**  
+  Instructions for preparing the SC4VR environment.
+
+- **Dataset Structure & Loading**  
+  Demonstrates how to organize input data and load it into the pipeline.
+
+- **Core Processing Pipeline**  
+  Walks through the main SC4VR modules, showing how each component transforms the data.
+
+- **Running the Model**  
+  Example code for executing the full workflow, including configuration options and expected outputs.
 
 
-### Train
-
-   ```bash
-   python train.py
-   ```
-
-### Inference
-
-   ```bash
-   python inference.py
-   ```
 
 ## Citation
 
