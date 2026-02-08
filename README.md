@@ -1,20 +1,22 @@
 # SC4VR: Supervised Contrastive Learning for Video Representations
 
-Official implementation of [Enhancing vision representations for traffic safety-critical events via supervised contrastive learning](https://www.sciencedirect.com/science/article/pii/S0022437525001471#fig0015).
+Official PyTorch implementation of [Enhancing vision representations for traffic safety-critical events via supervised contrastive learning](https://www.sciencedirect.com/science/article/pii/S0022437525001471#fig0015).
 
 SC4VR is a novel approach designed to enhance video representation learning, specifically for crash and near-crash events. 
 
 ## Method Overview
 
 <p align="center">
-  <img src="SupCon.png" alt="SC4VR Overview" width="350">
+  <img src="SupCon.png" alt="SC4VR Overview" width="300">
 </p>
 
 
 
 ## Tutorial
 
-Jupyter notebook
+Jupyter notebook for the implementation, including data preprocessing, label csv
+
+Video encoder: Video ResNet
 
 
 
